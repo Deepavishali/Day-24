@@ -11,7 +11,7 @@ const userValidationSchema = yup.object({
         .min(4, "Paste a valid url✌")
         .required("Image is mandatory 🤷‍♀️😁"),
     Name: yup.string()
-        .min(10, "Please enter your name✌")
+        .min(5, "Please enter your name✌")
         .required("Name is mandatory 🤷‍♀️😁"),
     Age: yup.number()
         .min(0, "Please Enter your Age✌")
